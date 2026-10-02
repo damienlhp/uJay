@@ -29,12 +29,14 @@ serveur.
 @startuml
 
 class User {
+    - userId : String
     - username : String
     - password : String
     - phoneNumber : String
 }
 
 class DiscussionThread {
+    - discussionId : String
     - title : String
 }
 
